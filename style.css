@@ -1,0 +1,126 @@
+/* Global Styles */
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: #f4b400;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#home {
+    background: #f4f4f4;
+}
+
+#about {
+    background: #ddd;
+}
+
+#portfolio {
+    background: #f4f4f4;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-items .item {
+    background: #333;
+    color: white;
+    padding: 40px;
+    width: 48%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    background: #ddd;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header h1, header nav {
+        float: none;
+        text-align: center;
+    }
+
+    header ul {
+        padding: 0;
+    }
+
+    header ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .portfolio-items .item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+}
