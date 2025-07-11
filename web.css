@@ -1,0 +1,127 @@
+/* *{
+    padding: 0%;
+    margin: 0;
+} */
+
+/* *{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+#navbar{
+    height: 60px;
+    background-color:pink;
+    border: 2px solid black;
+    padding-top: 2%;
+}
+
+a{
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+    font-weight: bold;
+    margin-left: 10px;
+} */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.contact-btn {
+    background-color: orange;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: white;
+}
+.hero-content {
+    max-width: 50%;
+}
+.hero-content h2 {
+    font-size: 36px;
+}
+.hero-content span {
+    color: orange;
+    font-weight: bold;
+}
+.buttons {
+    margin-top: 20px;
+}
+.btn-black {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.btn-orange {
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.hero-image img {
+    width: 200px;
+    border-radius: 50%;
+}
+.about, .contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #222;
+    color: white;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.contact form input, .contact form textarea {
+    width: 50%;
+    padding: 10px;
+    border: none;
+}
+.contact form button {
+    width: 52%;
+}

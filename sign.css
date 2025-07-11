@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/gradient-abstract-wireframe-background_23-2149009903.jpg?semt=ais_hybrid&w=740);
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+}
+.box2{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: lightgreen;
+    margin-top: 60px;
+    height: 600px;
+    width: 600px;
+    text-align: center;
+h1{
+    padding-top: 180px;
+}
+}
+.box3{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    margin-top: 60px;
+    height: 600px;
+    width: 900px;
+}
+#container{
+    display: flex;
+    gap: 0px;
+}
+/* .box3{
+    border-radius: 20px;
+    background-color: aquamarine;
+    margin-top: 60px;
+    height: 600px;
+    width: 500px;
+    text-align: center;
+h1{
+    padding-top: 230px;
+}
+} */
+.logo{
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 18px 40px;
+}
+button{
+    height: 30px;
+    width: 60px;
+    margin-left: 1380px;
+}
+form{
+    margin-top: 20px;
+    margin-left: 10px;
+}
